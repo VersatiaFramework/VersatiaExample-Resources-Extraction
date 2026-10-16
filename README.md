@@ -1,18 +1,17 @@
-    # VersatiaExample-Resources-Extraction
+# VersatiaExample-Resources-Extraction
 
-    Files shipped under `resources/` in the JAR appear in the plugin's data folder when it starts. Nothing to declare.
+Files shipped under `resources/` in the JAR appear in the plugin's data folder when it starts. Nothing to declare.
 
-    Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources).
+Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources).
 
-    **Start with** `src/main/resources/resources/` and [`ResourcesPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/resources/ResourcesPlugin.kt).
+**Start with** `src/main/resources/resources/` and [`ResourcesPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/resources/ResourcesPlugin.kt).
 
-    ## What the log shows
+## What the log shows
 
-    ```
-    messages.yml says: Welcome to the server!
+```
+messages.yml says: Welcome to the server!
 lang/en.yml is in the data folder: true
-    ```
-
+```
 
 ## Things to try
 
@@ -22,8 +21,10 @@ lang/en.yml is in the data folder: true
 
 ## Building
 
-Requires JDK 21 and VersatiaAPI in your local Maven repository (`./gradlew publishToMavenLocal`
-in its checkout); running it requires a Paper 1.21.4 server with VersatiaCore installed.
+Requires JDK 21 and VersatiaStarter with what it exports (VersatiaAPI, the module APIs) in your
+local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
+[Building the framework](https://versatiaframework.github.io/VersatiaDocs/docs/contributing/building));
+running it requires a Paper 1.21.4 server with VersatiaCore installed.
 
 ```bash
 ./gradlew build
