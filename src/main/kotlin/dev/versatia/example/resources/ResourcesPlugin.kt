@@ -1,10 +1,10 @@
-package com.github.marcoral.versatia.example.resources
+package dev.versatia.example.resources
 
-import com.github.marcoral.versatia.Phase
-import com.github.marcoral.versatia.VersatiaPlugin
-import com.github.marcoral.versatia.lifecycle.AutoInvoke
-import com.github.marcoral.versatia.util.config.getStringOrThrow
-import com.github.marcoral.versatia.util.config.loadYamlOrThrow
+import dev.versatia.Phase
+import dev.versatia.VersatiaPlugin
+import dev.versatia.lifecycle.AutoInvoke
+import dev.versatia.util.config.getStringOrThrow
+import dev.versatia.util.config.loadYamlOrThrow
 
 /** Nothing to override: the files are extracted before this function runs. */
 class ResourcesPlugin : VersatiaPlugin() {

@@ -2,9 +2,9 @@
 
 Files shipped under `resources/` in the JAR appear in the plugin's data folder when it starts. Nothing to declare.
 
-Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Plugin resources](https://versatiaframework.github.io/VersatiaDocs/docs/resources).
+Part of the [Versatia examples](https://github.com/VersatiaFramework/VersatiaExamples); documentation: [Plugin resources](https://versatia.dev/docs/resources).
 
-**Start with** `src/main/resources/resources/` and [`ResourcesPlugin.kt`](src/main/kotlin/com/github/marcoral/versatia/example/resources/ResourcesPlugin.kt).
+**Start with** `src/main/resources/resources/` and [`ResourcesPlugin.kt`](src/main/kotlin/dev/versatia/example/resources/ResourcesPlugin.kt).
 
 ## What the log shows
 
@@ -23,7 +23,7 @@ lang/en.yml is in the data folder: true
 
 Requires JDK 21 and VersatiaAPI in your
 local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
-[Building the framework](https://versatiaframework.github.io/VersatiaDocs/docs/contributing/building));
+[Building the framework](https://versatia.dev/docs/contributing/building));
 running it requires a Paper 1.21.4 server with VersatiaCore installed.
 
 ```bash
