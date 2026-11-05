@@ -21,10 +21,10 @@ lang/en.yml is in the data folder: true
 
 ## Building
 
-Requires JDK 21 and VersatiaAPI in your
+Requires JDK 25 and VersatiaAPI in your
 local Maven repository (`./gradlew publishToMavenLocal` in each checkout; see
 [Building the framework](https://versatia.dev/docs/contributing/building));
-running it requires a Paper 1.21.4 server with VersatiaCore installed.
+running it requires a Paper 26.3 server with VersatiaCore installed.
 
 ```bash
 ./gradlew build
